@@ -2,7 +2,7 @@ import React from 'react'
 
 const DataCard = ({item}) => {
   return (
-    <div className=' container'>
+    <div className='grid grid-flow-col'>
        <ul className='m-6'>
        {item.id}.
         <li className='text-2xl'>{item.name}</li>

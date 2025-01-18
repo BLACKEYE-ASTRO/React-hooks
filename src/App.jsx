@@ -1,3 +1,4 @@
+import ImperativeHandle from "./Hooks/Imperative"
 import { UseEffect } from "./Hooks/UseEffect"
 import { UseState } from "./Hooks/UseState"
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <UseState/>
       <UseEffect/>
+      <ImperativeHandle/>
     </>
   )
 }
